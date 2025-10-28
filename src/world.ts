@@ -8,13 +8,11 @@ export default class World {
   }
 
   // 外部から呼び出せるメソッドを定義
-  public sayHello(elem: HTMLElement | null) {
+  public sayHello(elem: HTMLElement | aaaaa | null) {
     if (elem) {
       return (elem.innerText = this.message)
     } else {
       return
     }
-
-    ああああああああああ
   }
 }

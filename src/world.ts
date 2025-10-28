@@ -14,5 +14,7 @@ export default class World {
     } else {
       return
     }
+
+    ああああああああああ
   }
 }
